@@ -20,7 +20,6 @@ app.get("/", (req, res) => {
   res.send("hello world");
 });
 
-
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
